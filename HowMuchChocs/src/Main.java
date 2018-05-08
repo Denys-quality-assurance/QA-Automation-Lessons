@@ -10,17 +10,17 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		do {
-			System.out.println("Количество доступных денег (Введи целое число большее 0!)");
+			System.out.println("Quantity of available money (Enter an integer bigger 0!)");
 			money = scanner.nextInt();
 		} while (money<=0);
 		
 		do {
-			System.out.println("Стоимость одной шоколадки (Введи целое число большее 0!)");
+			System.out.println("The cost of one chocolate (Enter an integer bigger 0!)");
 			cost = scanner.nextInt();
 		} while (cost<=0);
 		
 		do {
-			System.out.println("Количество оберток в обмен на одну шоколадку (Введи целое число большее 1!)");
+			System.out.println("Quantity of wrappers in exchange for one chocolate (Enter an integer bigger 1!)");
 			wrap = scanner.nextInt();
 		} while (wrap<=1);
 		

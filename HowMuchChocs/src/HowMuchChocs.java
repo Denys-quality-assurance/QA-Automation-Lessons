@@ -19,8 +19,8 @@ public class HowMuchChocs {
 			numOfWrapsThisStep = numOfChocsThisStep; // Eating of chocolates: Calculation of the number of wraps at this step
 		}
 				
-		System.out.println("Ты сможешь приобрести максимум " + numOfChocsSum + " шок.");
-		System.out.println("У тебя останется в кармане " + (numOfWrapsThisStep+restWraps) + " обер.");
-		System.out.println("А в кошельке " + restMoney + " $.");
+		System.out.println("You can buy a maximum of " + numOfChocsSum + " choc.");
+		System.out.println("You will have " + (numOfWrapsThisStep+restWraps) + " wrap. in your pocket");
+		System.out.println("And in a purse of " + restMoney + " $.");
 	}
 }
