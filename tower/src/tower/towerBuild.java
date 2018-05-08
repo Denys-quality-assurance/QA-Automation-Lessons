@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class towerBuild {
 	public static void main(String[ ] args) {
-		System.out.println("¬веди разумное количество этажей");
+		System.out.println("Enter the reasonable number of floors of a tower");
 		Scanner Var = new Scanner(System.in);
 		int myVar = Var.nextInt();
 		

@@ -9,17 +9,17 @@ class Game {
 	int  random_number = a + (int) (Math.random ()*b);
 	int myVar = 10;
 	
-	System.out.println("Введи от 0 до 9");
+	System.out.println("Enter an integer from 0 to 9");
 	Scanner Var = new Scanner(System.in);
 	 
 	while (Var.hasNextInt()) {
 	    myVar = Var.nextInt();
 	    if (myVar == random_number) {
-	    System.out.println("OK! Попал!");
+	    System.out.println("OK! Has got!");
 		} else if (myVar > random_number) {
-		System.out.println("Введи значение меньше!");
+		System.out.println("Enter the value less!");
 	    } else if (myVar < random_number) {
-		System.out.println("Введи значение больше!");
+		System.out.println("Enter a value more!");
 	  }
   }
   
